@@ -10,7 +10,7 @@ export const ButtonGroup = () => {
 
     return (
         <>
-        <div class="container mt-5">
+        <div class="container mt-2 pr-[40px] flex justify-end">
         <button
           type="button"
           className={`btn mr-4 border border-secondary ${activeButton === 1 ? 'btn-primary' : ''}`}
@@ -27,7 +27,7 @@ export const ButtonGroup = () => {
         </button>
         <button
           type="button"
-          className={`btn border border-secondary ${activeButton === 3 ? 'btn-primary' : ''}`}
+          className={`btn border border-secondary mr-[42px] ${activeButton === 3 ? 'btn-primary' : ''}`}
           onClick={() => handleButtonClick(3)}
         >
           Download CSV Tampate

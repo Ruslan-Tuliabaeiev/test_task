@@ -75,7 +75,7 @@ export const UserTable = () => {
 
     
       return (
-        <div className="container mt-5 rounded-2">
+        <div className="container mt-2 rounded-2">
           <table className="table table-striped">
             <thead>
               <tr>

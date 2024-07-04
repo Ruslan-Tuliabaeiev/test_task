@@ -9,7 +9,7 @@ export const SearchFilteringFils = ({toggleSearch}) =>  {
 
 return (
 <div  class="container">
-   <div class="container mt-5 pl-10">
+   <div class="container mt-2 pl-10">
       <div class="input-group mb-3">
         <input
           type="text"
