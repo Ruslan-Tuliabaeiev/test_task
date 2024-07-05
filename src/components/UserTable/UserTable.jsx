@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BiEnvelope, BiPencil } from "react-icons/bi";
-import { BsEye } from "react-icons/bs";
+import { Envelope, Eye, Pencil } from "react-bootstrap-icons";
 
 export const UserTable = ({openInformationWindow, openUserInformatioList}) => {
 
@@ -17,12 +16,12 @@ export const UserTable = ({openInformationWindow, openUserInformatioList}) => {
       dateAdded: 'Data6', 
       department: 'Data7', 
       actions: (
-        <div className="flex gap-3">
-          <BsEye size={20} onClick={openInformationWindow}/>
+        <div class="flex gap-3">
+          <Eye size={20} onClick={openInformationWindow}/>
         <Link to="/second-page">
-          <BiPencil size={20}/>
+          <Pencil size={20}/>
         </Link>
-          <BiEnvelope size={20}/>
+          <Envelope size={20}/>
         </div>
       ), 
     },
@@ -35,12 +34,12 @@ export const UserTable = ({openInformationWindow, openUserInformatioList}) => {
       dateAdded: 'Data6', 
       department: 'Data7', 
       actions: (
-        <div className="flex gap-3">
-          <BsEye size={20} onClick={openInformationWindow}/>
-          <Link to="/second-page">
-          <BiPencil size={20}/>
+        <div class="flex gap-3">
+          <Eye size={20} onClick={openInformationWindow}/>
+        <Link to="/second-page">
+          <Pencil size={20}/>
         </Link>
-          <BiEnvelope size={20}/>
+          <Envelope size={20}/>
         </div>
       ),  
     },
@@ -53,12 +52,12 @@ export const UserTable = ({openInformationWindow, openUserInformatioList}) => {
       dateAdded: 'Data6', 
       department: 'Data7', 
       actions: (
-        <div className="flex gap-3">
-          <BsEye size={20} onClick={openInformationWindow}/>
-          <Link to="/second-page">
-          <BiPencil size={20}/>
+        <div class="flex gap-3">
+          <Eye size={20} onClick={openInformationWindow}/>
+        <Link to="/second-page">
+          <Pencil size={20}/>
         </Link>
-          <BiEnvelope size={20}/>
+          <Envelope size={20}/>
         </div>
       ), 
     },
@@ -71,17 +70,16 @@ export const UserTable = ({openInformationWindow, openUserInformatioList}) => {
       dateAdded: 'Data6', 
       department: 'Data7', 
       actions: (
-        <div className="flex gap-3">
-          <BsEye size={20} onClick={openInformationWindow}/>
-          <Link to="/second-page">
-          <BiPencil size={20}/>
-          </Link>
-          <BiEnvelope size={20}/>
+        <div class="flex gap-3">
+          <Eye size={20} onClick={openInformationWindow}/>
+        <Link to="/second-page">
+          <Pencil size={20}/>
+        </Link>
+          <Envelope size={20}/>
         </div>
       ), 
     },
   ];
-      // <BiPencil size={20}/> <BiEnvelope size={20}/> <BsEye size={20}/>
 
       return (
         <div className="container mt-2 rounded-2">

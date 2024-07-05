@@ -1,9 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BiFilterAlt } from "react-icons/bi";
-
-
+import { Funnel } from "react-bootstrap-icons";
 
 export const SearchFilteringFils = ({toggleSearch}) =>  {
 
@@ -23,7 +21,7 @@ return (
          type="submit"
           class="ml-5 btn bg-dark-subtle z-0"
            onClick={toggleSearch}>
-           <BiFilterAlt size={20}/>
+            <Funnel/>
          </button>
         
         </div>

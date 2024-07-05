@@ -14,7 +14,6 @@ export const InformationWindow = ({closeInformationWindow}) => {
     dateAdded: 'Data6',
     department: 'Data7'
   };
-    // const [show, setShow] = useState(true);
 
     useEffect(() => {
       const handleClickOutside = (event) => {
