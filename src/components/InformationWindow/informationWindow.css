@@ -1,0 +1,38 @@
+.modal-right .modal-dialog {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
+    max-width: 30%;
+    height: 100%;
+    z-index: 100;
+  }
+
+  .modal-right .modal-content {
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 10;
+  }
+
+  .modal-right {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    border-radius: 0;
+  }
+  
+.right {
+  margin-right: 20px;
+}

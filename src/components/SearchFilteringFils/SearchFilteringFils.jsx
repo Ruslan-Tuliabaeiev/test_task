@@ -21,7 +21,7 @@ return (
         <div class="">
          <button
          type="submit"
-          class="ml-5 btn bg-dark-subtle"
+          class="ml-5 btn bg-dark-subtle z-0"
            onClick={toggleSearch}>
            <BiFilterAlt size={20}/>
          </button>
