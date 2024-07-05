@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const SearchUser = () => {
     return (
         <>
-            <div class="w-[1295px] mx-auto  h-[80px] bg-white flex items-center justify-center rounded-2">
+            <div class="w-[1295px] mt-2 mx-auto h-[80px] bg-white flex items-center justify-center rounded-2">
            
                <div class="input-group max-w-[900px]">
                 <div class="w-[400px] mr-[60px]">
